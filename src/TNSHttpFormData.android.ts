@@ -44,6 +44,9 @@ export class TNSHttpFormData extends Common
                 let callback = new okhttp3.Callback({
                     // all server errors will arrive here
                     onResponse: (call, response) => {
+
+                        // Alogent - We are not checking the body of the response.
+
                         /*
                         let body;
                         try {

@@ -1,5 +1,5 @@
 {
-	"name": "@chuckatalog/nativescript-http-formdata",
+	"name": "nativescript-http-formdata",
 	"version": "2.1.0",
 	"description": "A NativeScript plugin to post/upload file as multipart/form-data to server.",
 	"main": "TNSHttpFormData",
@@ -14,8 +14,8 @@
 		"type": "git",
 		"url": "https://github.com/chuckatalog/nativescript-http-formdata.git"
 	},
-	"publishConfig": { 
-		"registry": "https://npm.pkg.github.com/" 
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com/"
 	},
 	"scripts": {
 		"tsc": "npm i && tsc",
