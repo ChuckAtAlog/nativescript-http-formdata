@@ -44,6 +44,7 @@ export class TNSHttpFormData extends Common
                 let callback = new okhttp3.Callback({
                     // all server errors will arrive here
                     onResponse: (call, response) => {
+                        /*
                         let body;
                         try {
                             body = JSON.parse(response.body().string());
@@ -57,7 +58,8 @@ export class TNSHttpFormData extends Common
                             statusMessage: response.message(),
                             body: body
                         };
-                        resolve(customResponse);
+                        */
+                        resolve(response);
                     },
                     // incase of timeout etc, this will be called
                     onFailure: (call, response) => {
