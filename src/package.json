@@ -1,5 +1,5 @@
 {
-	"name": "nativescript-http-formdata",
+	"name": "@chuckatalog/nativescript-http-formdata",
 	"version": "2.1.0",
 	"description": "A NativeScript plugin to post/upload file as multipart/form-data to server.",
 	"main": "TNSHttpFormData",
@@ -12,7 +12,10 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/dotnetdreamer/nativescript-http-formdata.git"
+		"url": "https://github.com/chuckatalog/nativescript-http-formdata.git"
+	},
+	"publishConfig": { 
+		"registry": "https://npm.pkg.github.com/" 
 	},
 	"scripts": {
 		"tsc": "npm i && tsc",
@@ -37,13 +40,13 @@
 		"Nativescript Form Data"
 	],
 	"author": {
-		"name": "Idrees Khan"
+		"name": "Chuck Marable"
 	},
 	"bugs": {
-		"url": "https://github.com/dotnetdreamer/nativescript-http-formdata/issues"
+		"url": "https://github.com/chuckatalog/nativescript-http-formdata/issues"
 	},
 	"license": "Apache-2.0",
-	"homepage": "https://github.com/dotnetdreamer/nativescript-http-formdata",
+	"homepage": "https://github.com/chuckatalog/nativescript-http-formdata",
 	"readmeFilename": "README.md",
 	"devDependencies": {
 		"tns-core-modules": "~6.3.0",
